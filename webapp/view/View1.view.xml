@@ -7,9 +7,10 @@
 					<form:SimpleForm>
 						<form:content>
 							<Label text="UserName"></Label>
-							<Input></Input>
+							<Input id="user"></Input>
 							<Label text="Password"></Label>
-							<Input></Input>
+							<Input id="pwd" type="Password"></Input>
+							<Button text="Login" type="Accept" press="onBtnClick"></Button>
 						</form:content>
 					</form:SimpleForm>
 				</content>
