@@ -6,11 +6,12 @@
 				<content>
 					<form:SimpleForm>
 						<form:content>
-							<Label text="UserName"></Label>
-							<Input id="user"></Input>
+							<Title id="title" text="Please Fill The Form"></Title>
+							<Label class="label" text="UserName"></Label>
+							<Input class="input" id="user" placeholder="Enter UserName"></Input>
 							<Label text="Password"></Label>
-							<Input id="pwd" type="Password"></Input>
-							<Button text="Login" type="Accept" press="onBtnClick"></Button>
+							<Input class="input" id="pwd" type="Password" placeholder="Enter Password"></Input>
+							<Button id="btn" text="Login" type="Accept" press="onBtnClick"></Button>
 						</form:content>
 					</form:SimpleForm>
 				</content>
