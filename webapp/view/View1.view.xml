@@ -1,9 +1,18 @@
 <mvc:View controllerName="GithubSAP-UI5-Fiori-Login-Page.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<form:SimpleForm>
+						<form:content>
+							<Label text="UserName"></Label>
+							<Input></Input>
+							<Label text="Password"></Label>
+							<Input></Input>
+						</form:content>
+					</form:SimpleForm>
+				</content>
 			</Page>
 		</pages>
 	</App>
