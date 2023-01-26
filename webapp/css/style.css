@@ -1,1 +1,40 @@
 /* Enter your custom styles here */
+#__xmlview0--title {
+	text-align: center;
+    font-size: x-large;
+    font-family: emoji;
+    background-color: darkgray;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+}
+#__xmlview0--user-inner{
+	border: 1px solid black;
+    border-radius: 8px;
+    background-color: #F8F8FF;
+}
+#__xmlview0--pwd-inner{
+	border: 1px solid black;
+    border-radius: 8px;
+    background-color: #F8F8FF;
+}
+#__xmlview0--btn-inner{
+	font-size: large;
+	border-radius:8px;
+}
+#__label0{
+	color: black;
+    font-size: initial;
+}
+#__label1{
+	color: black;
+    font-size: initial;
+}
+#__element1--RFLayout-row0{
+	display: flex;
+    align-items: center;
+}
+#__element2--RFLayout-row0{
+	display: flex;
+    align-items: center;
+}

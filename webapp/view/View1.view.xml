@@ -1,18 +1,17 @@
-<mvc:View controllerName="GithubSAP-UI5-Fiori-Login-Page.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="GithubSAP-UI5-Fiori-Login-Page.controller.View1" displayBlock="true">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
 					<form:SimpleForm>
 						<form:content>
-							<Title id="title" text="Please Fill The Form"></Title>
-							<Label class="label" text="UserName"></Label>
-							<Input class="input" id="user" placeholder="Enter UserName"></Input>
-							<Label text="Password"></Label>
-							<Input class="input" id="pwd" type="Password" placeholder="Enter Password"></Input>
-							<Button id="btn" text="Login" type="Accept" press="onBtnClick"></Button>
+							<Title id="__xmlview0--title" text="Please Fill The Form"/>
+							<Label class="label" text="UserName"/>
+							<Input class="input" id="user" placeholder="Enter UserName"/>
+							<Label text="Password"/>
+							<Input class="input" id="pwd" type="Password" placeholder="Enter Password"/>
 						</form:content>
+					<Button icon="sap-icon://visits" id="btn" text="Login" type="Accept" press="onBtnClick"/>
 					</form:SimpleForm>
 				</content>
 			</Page>
