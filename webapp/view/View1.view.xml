@@ -3,7 +3,7 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-					<form:SimpleForm>
+					<form:SimpleForm>      <!--create a SimpleForm and set library in xmlns for form-->
 						<form:content>
 							<Title id="__xmlview0--title" text="Please Fill The Form"/>
 							<Label class="label" text="UserName"/>
