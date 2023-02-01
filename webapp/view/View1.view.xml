@@ -9,7 +9,7 @@
 							<Label class="label" text="UserName"/>
 							<Input class="input" id="user" placeholder="Enter UserName"/>
 							<Label text="Password"/>
-							<Input class="input" id="pwd" type="Password" placeholder="Enter Password"/>
+							<Input class="pwdClass" id="pwd" type="Password" placeholder="Enter Password"/>
 						</form:content>
 					<Button icon="sap-icon://visits" id="btn" text="Login" type="Accept" press="onBtnClick"/>
 					</form:SimpleForm>

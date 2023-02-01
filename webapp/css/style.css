@@ -38,3 +38,16 @@
 	display: flex;
     align-items: center;
 }
+.pwdClass .sapMInputBaseInner {
+    color: #bf1313;
+    background: #ffffff;
+    border: 1px solid #bfbfbf;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    font-size: 0.875rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+    padding: 0 0.75rem;
+    height: 100%;
+    box-sizing: border-box;
+}
