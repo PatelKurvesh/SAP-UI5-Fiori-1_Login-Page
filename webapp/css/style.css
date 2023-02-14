@@ -1,35 +1,49 @@
 /* Enter your custom styles here */
-#__xmlview0--title {
+/*#__xmlview0--title {*/
+/*	text-align: center;*/
+/*    font-size: x-large;*/
+/*    font-family: emoji;*/
+    /*background-color: darkgray;*/
+/*    border-radius: 20px;*/
+/*    padding: 5px;*/
+/*    color: black;*/
+/*}*/
+.title{
 	text-align: center;
-    font-size: x-large;
+    font-size: larger;
     font-family: emoji;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
     border-radius: 20px;
     padding: 5px;
     color: black;
+	
 }
-#__xmlview0--user-inner{
-	border: 1px solid black;
-    border-radius: 8px;
-    background-color: #F8F8FF;
-}
-#__xmlview0--pwd-inner{
-	border: 1px solid black;
-    border-radius: 8px;
-    background-color: #F8F8FF;
-}
-#__xmlview0--btn-inner{
-	font-size: large;
-	border-radius:8px;
-}
-#__label0{
-	color: black;
+ .label{
+ 	color: black;
     font-size: initial;
-}
-#__label1{
-	color: black;
-    font-size: initial;
-}
+ }
+/*#__xmlview0--user-inner{*/
+/*	border: 1px solid black;*/
+/*    border-radius: 8px;*/
+/*    background-color: #F8F8FF;*/
+/*}*/
+/*#__xmlview0--pwd-inner{*/
+/*	border: 1px solid black;*/
+/*    border-radius: 8px;*/
+/*    background-color: #F8F8FF;*/
+/*}*/
+/*#__xmlview0--btn-inner{*/
+/*	font-size: large;*/
+/*	border-radius:8px;*/
+/*}*/
+/*#__label0{*/
+/*	color: black;*/
+/*    font-size: initial;*/
+/*}*/
+/*#__label1{*/
+/*	color: black;*/
+/*    font-size: initial;*/
+/*}*/
 #__element1--RFLayout-row0{
 	display: flex;
     align-items: center;
@@ -38,16 +52,16 @@
 	display: flex;
     align-items: center;
 }
-.pwdClass .sapMInputBaseInner {
-    color: #bf1313;
-    background: #ffffff;
-    border: 1px solid #bfbfbf;
-    -webkit-appearance: none;
-    -moz-appearance: textfield;
-    font-size: 0.875rem;
-    font-family: Arial,Helvetica,sans-serif;
-    line-height: normal;
-    padding: 0 0.75rem;
-    height: 100%;
-    box-sizing: border-box;
-}
+/*.pwdClass .sapMInputBaseInner {*/
+/*    color: #bf1313;*/
+/*    background: #ffffff;*/
+/*    border: 1px solid #bfbfbf;*/
+/*    -webkit-appearance: none;*/
+/*    -moz-appearance: textfield;*/
+/*    font-size: 0.875rem;*/
+/*    font-family: Arial,Helvetica,sans-serif;*/
+/*    line-height: normal;*/
+/*    padding: 0 0.75rem;*/
+/*    height: 100%;*/
+/*    box-sizing: border-box;*/
+/*}*/

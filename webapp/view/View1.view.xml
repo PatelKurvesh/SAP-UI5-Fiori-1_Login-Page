@@ -5,10 +5,10 @@
 				<content>
 					<form:SimpleForm>      <!--create a SimpleForm and set library in xmlns for form-->
 						<form:content>
-							<Title id="__xmlview0--title" text="Please Fill The Form"/>
+							<Title class="title" text="Please Fill The Form"/>
 							<Label class="label" text="UserName"/>
 							<Input class="input" id="user" placeholder="Enter UserName"/>
-							<Label text="Password"/>
+							<Label  class="label" text="Password"/>
 							<Input class="pwdClass" id="pwd" type="Password" placeholder="Enter Password"/>
 						</form:content>
 					<Button icon="sap-icon://visits" id="btn" text="Login" type="Accept" press="onBtnClick"/>
