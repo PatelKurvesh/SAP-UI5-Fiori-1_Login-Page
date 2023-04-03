@@ -11,8 +11,10 @@ sap.ui.define([
 			
 			if(oUser==="admin" && oPwd==="admin"){				
 				document.write("Login Successfully");
+				// sap.m.MessageToast.show("Login Success");
 			}else{
-				alert("Re-Enter your Detail");
+				// alert("Re-Enter your Detail");
+				sap.m.MessageToast.show("Enter Currect Details");
 			}
 			
 			
